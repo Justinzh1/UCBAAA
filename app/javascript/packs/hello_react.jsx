@@ -20,10 +20,11 @@ Hello.propTypes = {
 
 document.addEventListener('DOMContentLoaded', () => {
   const node = document.getElementById('hello_data')
+  const container = document.getElementById('bg')
   const data = node.getAttribute('data-name')
 
   ReactDOM.render(
     <Hello name={data} />,
-    document.body.appendChild(document.createElement('div')),
+    container.appendChild(document.createElement('div')),
   )
 })

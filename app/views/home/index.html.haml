@@ -1,3 +1,26 @@
-%h1 Welcome to Asian American Association
-#hello_data{data: { name: "Justin" }}
-= javascript_pack_tag 'hello_react'
+- content_for :head do
+	= stylesheet_link_tag 'home'
+
+- content_for :body do
+	#bg
+		.crane
+			= image_tag("Crane.svg", class: "crane-svg")
+		= javascript_pack_tag 'navbar_react'
+		.home-desc-container
+			.desc
+				%h2 The largest Asian American Interest Group on campus
+				%p Open to all groups interested in Asian American Culture
+		.panel-container
+			.panel
+				%h2 General Members
+			.panel
+				%h2 Families
+			.panel
+				%h2 Committes
+			%br
+			.panel
+				%h2 Cabinet
+			.panel
+				%h2 Events
+			.panel
+				%h2 History
