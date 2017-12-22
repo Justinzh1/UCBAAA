@@ -54,7 +54,7 @@ h1 {
 	position: absolute;
 	bottom: 100px;
 	text-align: center;
-	width: 100%;
+	width: calc(100% - 80px);
 }
 
 .panel {
