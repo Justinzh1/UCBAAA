@@ -18,7 +18,6 @@ class Navbar extends React.Component {
 document.addEventListener('DOMContentLoaded', () => {
   const node = document.getElementById('nav_data')
   const container = document.getElementById('nav')
-  console.log(node)
   const data = node.getAttribute('data')
 
   ReactDOM.render(
