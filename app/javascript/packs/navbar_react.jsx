@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
 class Navbar extends React.Component {
+
+  constructor(props) {
+
+  }
+
   render() {
     return  <div className="nav-container">
               <img className="AAA" src={this.props.logo_path} />

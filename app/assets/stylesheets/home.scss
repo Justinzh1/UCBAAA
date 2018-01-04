@@ -9,23 +9,28 @@ h1 {
 	font-style: italic;
 }
 
+.vertical {
+	align-items: top;
+}
+
+.bg {
+	width: 100vw;
+	height: calc(100vh);
+	overflow: hidden;
+	overflow-y: hidden;
+	display: inline-block;
+}
+
 #bg {
-	margin: 0;
+	height: 100%;
+	width: 100%;
 	padding: 40px;
 	background-image: linear-gradient(45deg, #d4145a, #fbb03b);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	/*display: table;*/
-	overflow: hidden;
 }
 
 .crane-svg {
 	position: absolute;
 	width: 150vw;
-	/*left: calc(150/2vw);*/
 	min-width: 1080px;
 	top:  -9999px;
     bottom: -9899px;
@@ -34,11 +39,29 @@ h1 {
     margin: auto;
 }
 
+.poly-1-svg {
+	left: 0;
+}
+
 .home-desc-container {
 	position: absolute;
 	top: 130px;
 	margin-left: 140px;
 	padding: 20px;
+}
+
+.desc-container {
+	width: 400px;
+	padding-bottom: 150px;
+	h2 {
+		color: #264653;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size: 16px;
+		color: #264653;
+		font-weight: 300;
+	}
 }
 
 .desc {
@@ -82,5 +105,16 @@ h1 {
 	background-color: rgba(255,255,255, 0.4);
 	h2 {
 		/*color: #F06155;*/
+	}
+}
+
+.white-bg {
+	display: inline-block;
+	width: 100%;
+	padding: 40px;
+	padding-top: 150px;
+
+	h2 {
+		color: #264653;
 	}
 }
