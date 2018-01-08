@@ -1,0 +1,47 @@
+// Place all the styles related to the Structure controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+	color: #264653;
+}
+
+.header-container {
+	padding-left: 80px;
+	padding-right: 80px;
+	display: inline-block;
+
+	h1 { 
+		font-weight: 600;
+		font-size: 40px;
+		font-style: normal ;
+	}	
+
+	p {
+		margin-top: 0;
+		font-family: 'roboto';
+		color: #264653;
+	}
+}
+
+#structure-cards {
+	padding: 20px 80px;
+}
+
+.structure-card { 
+	background-color: #264653;
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin: 0px 15px;
+	position: relative;
+	text-align: center;
+}
+
+.card-text {
+	position: absolute;
+	bottom: -3em;
+	left: 50%;
+	transform: translateX(-50%);
+}

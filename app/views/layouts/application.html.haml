@@ -6,9 +6,11 @@
     = csrf_meta_tags
     = stylesheet_link_tag 	 "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = stylesheet_link_tag    'https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css'
     = yield :head
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    #nav_data{data: @logo_path}
+    #nav_data{data: @logo_path, color: @color}
     #nav
+    = javascript_pack_tag 'navbar_react'
     = yield :body
