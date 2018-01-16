@@ -9,6 +9,7 @@ class Navbar extends React.Component {
     this.state = {
       color: this.props.color
     }
+    this.handleClick = this.handleClick.bind(this)
   }
 
   get_color() {
@@ -17,9 +18,14 @@ class Navbar extends React.Component {
     }
   }
 
+  handleClick() {
+    console.log("Redirecting")
+    window.location.href = "/"
+  }
+
   render() {
     return  <div className="nav-container">
-              <img className="AAA" src={this.props.logo_path} />
+              <img onClick={this.handleClick} className="AAA" src={this.props.logo_path} />
               <div className="nav-row">
                 <a className="nav-link" style={{color: this.state.color}}>History </a>
                 <a className="nav-link" style={{color: this.state.color}}>Events </a>

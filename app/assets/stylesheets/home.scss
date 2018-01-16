@@ -9,6 +9,15 @@ h1 {
 	font-style: italic;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
 .vertical {
 	align-items: top;
 }
@@ -32,8 +41,7 @@ h1 {
 	position: absolute;
 	width: 150vw;
 	min-width: 1080px;
-	top:  -9999px;
-    bottom: -9899px;
+	top: 20%;
     left: -9999px;
     right: -9999px;
     margin: auto;
@@ -41,6 +49,7 @@ h1 {
 
 .poly-1-svg {
 	left: 0;
+	vertical-align: top;
 }
 
 .container {
@@ -121,5 +130,31 @@ h1 {
 
 	h2 {
 		color: #264653;
+	}
+}
+
+.mobile-container {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.home-desc-container {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 550px) {
+	.panel-container {
+		display: none;
+	}
+	.mobile-container {
+		display: inline-block;
+	    position: absolute;
+	    bottom: 100px;
+	    color: white;
+	    padding: 5px 15px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    border: 2px white solid;
 	}
 }

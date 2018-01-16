@@ -1,12 +1,14 @@
 {
-  "application.js": "/packs/application-9c44770269c7ae2d8c00.js",
-  "application.js.map": "/packs/application-9c44770269c7ae2d8c00.js.map",
-  "hello_react.js": "/packs/hello_react-c7e704b9d375dfbbc064.js",
-  "hello_react.js.map": "/packs/hello_react-c7e704b9d375dfbbc064.js.map",
-  "navbar_react.js": "/packs/navbar_react-69fc947b427bc0d7c258.js",
-  "navbar_react.js.map": "/packs/navbar_react-69fc947b427bc0d7c258.js.map",
-  "server_rendering.js": "/packs/server_rendering-a158b9fba65907ec3689.js",
-  "server_rendering.js.map": "/packs/server_rendering-a158b9fba65907ec3689.js.map",
-  "structure_carousel.js": "/packs/structure_carousel-edb31c11ccd1132d75d5.js",
-  "structure_carousel.js.map": "/packs/structure_carousel-edb31c11ccd1132d75d5.js.map"
+  "application.js": "/packs/application-e94f8c0dd8a48fdc0089.js",
+  "application.js.map": "/packs/application-e94f8c0dd8a48fdc0089.js.map",
+  "footer_react.js": "/packs/footer_react-e978de5ef2fed9bf9e08.js",
+  "footer_react.js.map": "/packs/footer_react-e978de5ef2fed9bf9e08.js.map",
+  "hello_react.js": "/packs/hello_react-d14d43b61547fb549cd8.js",
+  "hello_react.js.map": "/packs/hello_react-d14d43b61547fb549cd8.js.map",
+  "navbar_react.js": "/packs/navbar_react-db3caffe4eef48f153c7.js",
+  "navbar_react.js.map": "/packs/navbar_react-db3caffe4eef48f153c7.js.map",
+  "server_rendering.js": "/packs/server_rendering-7d0a9d15def8efaa3b57.js",
+  "server_rendering.js.map": "/packs/server_rendering-7d0a9d15def8efaa3b57.js.map",
+  "structure_carousel.js": "/packs/structure_carousel-17c1e74ab6c34ef9bc0c.js",
+  "structure_carousel.js.map": "/packs/structure_carousel-17c1e74ab6c34ef9bc0c.js.map"
 }

@@ -26,6 +26,7 @@ h1 {
 
 #structure-cards {
 	padding: 20px 80px;
+	margin-bottom: 60px;
 }
 
 .structure-card { 
@@ -34,9 +35,37 @@ h1 {
 	height: 150px;
 	width: 150px;
 	display: inline-block;
-	margin: 0px 15px;
+	margin: 0px 27.5px;
 	position: relative;
 	text-align: center;
+	transition: ease-in 200ms;
+	margin-bottom: 60px;
+}
+
+.structure-card:hover {
+	transform: scale(1.05);
+}
+
+.structure-badge {
+	color: #264653;
+	border-radius: 100%;
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	text-align: center;
+	border: 3px solid #264653;
+	right: -20px;
+	top: -20px;
+
+	p {
+		font-weight: 600;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-52.5%);
+		margin: 0;
+	}
 }
 
 .card-text {
@@ -44,4 +73,169 @@ h1 {
 	bottom: -3em;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+.structure-detail {
+	display: inline-block;
+	background-color: grey;
+	height: 100px;
+	width: calc(770px);
+	min-width: 400px;
+}
+
+@media (max-width: 980px) {
+	.structure-detail {
+		width: 570px;
+	}
+}
+
+@media (max-width: 640px) {
+	.structure-detail {
+		width: 560px;
+	}
+}
+
+.structure-grid {
+	background-color: white;
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+.grid-gutter-left {
+}
+
+.id-text {
+	font-size: 80px;
+	font-weight: 600;
+	color: #264653;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-id {
+	text-align: left;
+}
+
+.grid-card {
+	background-color: #264653;
+	height: 200px;
+	width: 200px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	float:left;
+	margin-right: 40px;
+}
+
+.grid-image {
+	/*height: 150px;*/
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.grid-sep {
+	font-weight: 600;
+	color: white;
+	font-size: 32px;
+	float: right;
+	border-left: 4px solid white;
+	position: relative;
+	top: -120px;
+	right: 17.5px;
+	padding-left: 10px;
+}
+
+.grid-desc {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: -1.5em;
+    left: 20px;
+}
+
+.grid-description {
+	color: #264653;
+	font-size: 20px;
+	text-align: left;
+}
+
+.grid-button { 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #264653;
+}
+
+.grid-perks {
+	color: #264653;
+	text-align: left;
+	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+
+.grid-title {
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.grid-inside {
+	padding: 40px;
+}
+
+.grid-info {
+	padding: 0 40px;
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.grid-box {
+	height: 1em;
+	width: 1em;
+	border: 3px solid #264653;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.grid-item {
+	font-size: 20px;
+	font-weight: 400;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+
+.grid-header {
+}
+
+.perk-badge {
+	border: 6px solid #264653;
+	width: 160px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container {
+	padding-top: 40px;
+}
+
+.perk-image {
+	width: 75px;
+	position: relative;
+	transform: translateY(10%);
+}
+
+.perk-image path {
+	fill: #264653;
 }

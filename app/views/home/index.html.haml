@@ -2,31 +2,38 @@
 	= stylesheet_link_tag 'home'
 
 - content_for :body do
-	.bg.vertical-align
-		#bg
-			.crane
-				= image_tag("Crane.svg", class: "crane-svg")
-			.home-desc-container
-				.desc
-					%h2 The largest Asian American Interest Group on campus
-					%p Open to all groups interested in Asian American Culture
-			.panel-container
-				.panel
-					%h2 General Members
-				.panel
-					%h2 Families
-				.panel
-					%h2 Committes
-				.panel
-					%h2 Cabinet
-				.panel
-					%h2 Events
-				.panel
-					%h2 History
-	.white-bg.vertical-align
-		.desc-container
-			%h2 Mission
-			%h3 Established in 1994, the UC Berkeley Asian American Association is one of the largest cultural clubs and strives to create an environment welcoming to all Asian Americans.
-			%p 
-		.poly
-			= image_tag("Poly_1.svg", class: "poly-1-svg")
+	.home-container
+		.bg.vertical-align
+			#bg
+				.crane
+					= image_tag("Crane.svg", class: "crane-svg")
+				.home-desc-container
+					.desc
+						%h2 The largest Asian American Interest Group on campus
+						%p Open to all groups interested in Asian American Culture
+				.panel-container
+					.panel
+						%h2 
+							= link_to  'General Members', structure_index_path('member')
+					.panel
+						%h2 
+							= link_to 'Families', structure_index_path('family')
+					.panel
+						%h2 
+							= link_to 'Committes', structure_index_path('committee')
+					.panel
+						%h2 
+							= link_to 'Cabinet', structure_index_path('cabinet')
+					.panel
+						%h2 Events
+					.panel
+						%h2 History
+				.mobile-container
+					%p Click to Learn More!
+		.white-bg.vertical-align
+			.desc-container
+				%h2 Mission
+				%h3 Established in 1994, the UC Berkeley Asian American Association is one of the largest cultural clubs and strives to create an environment welcoming to all Asian Americans.
+				%p 
+			.poly
+				= image_tag("Poly_1.svg", class: "poly-1-svg")
