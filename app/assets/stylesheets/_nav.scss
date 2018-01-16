@@ -1,12 +1,13 @@
 #nav {
 	z-index: 10;
-	position: relative;
+	position: absolute;
 	display: inline-block;
 }
 
 .AAA {
 	width: 100px;
 	height: auto;
+	cursor: pointer;
 }
 
 .nav-container {
@@ -35,3 +36,8 @@
 	box-shadow: 0px 4px white;
 }
 
+@media (max-width: 700px) {
+	.nav-row {
+		padding-left: 0;
+	}
+}

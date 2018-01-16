@@ -1,10 +1,14 @@
 {
-  "application.js": "/packs/application-307bedb5d7b280782229.js",
-  "application.js.map": "/packs/application-307bedb5d7b280782229.js.map",
-  "hello_react.js": "/packs/hello_react-98b1181cd1c934501d03.js",
-  "hello_react.js.map": "/packs/hello_react-98b1181cd1c934501d03.js.map",
-  "navbar_react.js": "/packs/navbar_react-c12f23038e5ada5cd4ec.js",
-  "navbar_react.js.map": "/packs/navbar_react-c12f23038e5ada5cd4ec.js.map",
-  "server_rendering.js": "/packs/server_rendering-77aaed67336cbe60f997.js",
-  "server_rendering.js.map": "/packs/server_rendering-77aaed67336cbe60f997.js.map"
+  "application.js": "/packs/application-e94f8c0dd8a48fdc0089.js",
+  "application.js.map": "/packs/application-e94f8c0dd8a48fdc0089.js.map",
+  "footer_react.js": "/packs/footer_react-e978de5ef2fed9bf9e08.js",
+  "footer_react.js.map": "/packs/footer_react-e978de5ef2fed9bf9e08.js.map",
+  "hello_react.js": "/packs/hello_react-d14d43b61547fb549cd8.js",
+  "hello_react.js.map": "/packs/hello_react-d14d43b61547fb549cd8.js.map",
+  "navbar_react.js": "/packs/navbar_react-db3caffe4eef48f153c7.js",
+  "navbar_react.js.map": "/packs/navbar_react-db3caffe4eef48f153c7.js.map",
+  "server_rendering.js": "/packs/server_rendering-7d0a9d15def8efaa3b57.js",
+  "server_rendering.js.map": "/packs/server_rendering-7d0a9d15def8efaa3b57.js.map",
+  "structure_carousel.js": "/packs/structure_carousel-17c1e74ab6c34ef9bc0c.js",
+  "structure_carousel.js.map": "/packs/structure_carousel-17c1e74ab6c34ef9bc0c.js.map"
 }

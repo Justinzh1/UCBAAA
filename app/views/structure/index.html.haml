@@ -1,0 +1,12 @@
+- content_for :head do
+	= stylesheet_link_tag 'structure'
+
+- content_for :body do
+	.center 
+		.header-container
+			.container.left
+				%h1 Structure
+				%p Find out more about how to get involved!
+		#structure-container
+		#structure-data{data: @data, active: @active}
+		= javascript_pack_tag 'structure_carousel'

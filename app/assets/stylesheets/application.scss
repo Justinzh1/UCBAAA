@@ -15,17 +15,42 @@
  */
 
 @import '_nav';
+@import '_footer';
 
 body {
 	font-family: 'roboto';
 	padding: 0; 
 	margin: 0;
+	max-height: 200vh;
 	overflow-x: hidden;
 }
+
+.home-container {
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.navbar-offset {
+	padding-top: 150px;
+}
+
 
 #AAA {
 	position: relative;
 	z-index: 20;
 	width: 100px;
 	height: auto;
+}
+
+.container {
+	padding: 40px;
+	padding-top: 150px;
+}
+
+.center {
+	text-align: center;
+}
+
+.left { 
+	text-align: left;
 }
