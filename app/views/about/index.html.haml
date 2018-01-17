@@ -1,0 +1,12 @@
+- content_for :head do
+	= stylesheet_link_tag 'about'
+
+- content_for :body do
+	.center 
+		.header-container
+			.container.left
+				%h1 About
+				%p Learn about our Spring 2018 Cabinet!
+		#about
+		#about-data{people: @people}
+		= javascript_pack_tag 'about'

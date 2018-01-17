@@ -27,9 +27,9 @@ class Navbar extends React.Component {
     return  <div className="nav-container">
               <img onClick={this.handleClick} className="AAA" src={this.props.logo_path} />
               <div className="nav-row">
-                <a className="nav-link" style={{color: this.state.color}}>History </a>
+                <a className="nav-link" href={this.props.about} style={{color: this.state.color}}>About </a>
                 <a className="nav-link" style={{color: this.state.color}}>Events </a>
-                <a className="nav-link" style={{color: this.state.color}}> Login </a>
+                <a className="nav-link" style={{color: this.state.color}}>Login </a>
               </div>
             </div>
   }
@@ -41,8 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const data = node.getAttribute('data')
   const color = node.getAttribute('color')
 
+  const about = node.getAttribute('about')
+
   ReactDOM.render(
-    <Navbar logo_path={data} color={color}/>,
+    <Navbar logo_path={data} color={color} about={about} />,
     container.appendChild(document.createElement('div'))
   )
 })

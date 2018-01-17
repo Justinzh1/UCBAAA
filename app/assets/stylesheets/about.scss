@@ -1,0 +1,89 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.card-profile {
+	height: 250px;
+	width: 250px;
+	overflow: hidden;
+	text-align:center;
+}
+
+.primary {
+	background-color: #1e326505;
+	width: 250px;
+	height: 250px;
+	transition: 400ms ease-in-out;
+}
+
+.card-profile:hover {
+	.primary {
+		background-color: #f1504b;
+	}
+	.alt {
+		background-color: #1e3265;
+	}
+}
+
+.primary:hover {
+	background-color: #f1504b;
+}
+
+.alt {
+	content: '';
+	position: relative;
+	top: -250px;
+	left: 0;
+	width: 250px;
+	height: 250px;
+	transition: all ease-in-out .5s;
+	background-color: #F1504B05;
+	mix-blend-mode: lighten;
+}
+
+
+.card-container {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*border: solid #264653 2px;*/
+}
+
+.about-container {
+	display: flex;
+	padding: 40px;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card-image {
+	height: 250px;
+	width: auto;
+
+	mix-blend-mode: grayscale(100%) contrast(1.2);
+	mix-blend-mode: multiply;
+}
+
+.card-info {
+	color: white;
+    position: relative;
+    top: -500px;
+    text-align: left;
+    padding: 20px;
+
+    p {
+    	margin: 0;
+    }
+}
+
+.card-name {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: .25em !important;
+}
+
+.card-header {
+	font-size: 24px;
+}

@@ -41,7 +41,8 @@ a:visited {
 	position: absolute;
 	width: 150vw;
 	min-width: 1080px;
-	top: 20%;
+	top: 50%;
+	transform: translateY(-50%);
     left: -9999px;
     right: -9999px;
     margin: auto;
