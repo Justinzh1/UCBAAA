@@ -9,7 +9,7 @@ class Card extends React.Component {
   }
 
   getImage(name) {
-    return 'assets/' + name.split(' ').join('_') + '.png'
+    return 'assets/' + name.split(' ').join('_') + '-min.jpg'
   }
 
   render() {
