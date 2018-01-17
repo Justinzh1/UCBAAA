@@ -224,6 +224,8 @@ h1 {
 	display: inline-block;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	padding-bottom: 0;
+	vertical-align: top;
 }
 
 .grid-container {
@@ -238,4 +240,16 @@ h1 {
 
 .perk-image path {
 	fill: #264653;
+}
+
+.perk-label {
+    background-color: #264653;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+    width: calc(100% + 5px);
+    right: 20px;
+    padding: 10px 20px;
 }

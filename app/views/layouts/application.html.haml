@@ -10,7 +10,7 @@
     = yield :head
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    #nav_data{data: @logo_path, color: @color}
+    #nav_data{data: @logo_path, color: @color, about: about_index_path}
     #nav
     = javascript_pack_tag 'navbar_react'
     = yield :body

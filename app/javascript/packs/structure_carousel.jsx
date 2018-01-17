@@ -78,7 +78,7 @@ class StructureDetails extends React.Component {
   getPerksCards(perks) {
     var cards = []
     for (var x=0; x<perks.length; x++) {
-      cards.push(<PositionsCards key={x} image={"assets/" + perks[x].split(' ').join('_') + ".svg"}/>)
+      cards.push(<PositionsCards key={x} name={perks[x]} image={"assets/" + perks[x].split(' ').join('_') + ".svg"}/>)
     }
     return cards
   }
@@ -190,6 +190,7 @@ class PositionsCards extends React.Component {
   render() {
     return  <div className="perk-badge">
               <img className="perk-image" src={this.props.image} />
+              <p className="perk-label"> {this.props.name} </p>
             </div> 
   } 
 }
