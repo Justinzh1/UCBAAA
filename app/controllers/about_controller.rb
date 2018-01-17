@@ -4,8 +4,8 @@ class AboutController < ApplicationController
 	def index
 		@people = 	{ people: [
 								{ name: "Kelly Hong", role: 'President', year: "Senior", major: 'Computer Science' },
-								{ name: "Rebecca Zhuge", role: 'External Vice President', year: "Junior", major: 'Political Science' },
 								{ name: "Dana Lin", role: 'Internal Vice President', year: "Senior", major: 'Economics' },
+								{ name: "Rebecca Zhuge", role: 'External Vice President', year: "Junior", major: 'Political Science' },
 								{ name: "Charmaine Lai", role: 'Director of Finance', year: "Junior", major: 'Economics' },
 								{ name: "Tiffany Tran", role: 'Director of Operations', year: "Sophomore", major: 'Economics' },
 								{ name: "Justin Zhong", role: 'Senior Advisor', year: "Junior", major: 'Cognitive Science' },

@@ -1,6 +1,6 @@
 {
-  "about.js": "/packs/about-feb50f7479ff226f98c3.js",
-  "about.js.map": "/packs/about-feb50f7479ff226f98c3.js.map",
+  "about.js": "/packs/about-52d3e9303ba2ae72aa20.js",
+  "about.js.map": "/packs/about-52d3e9303ba2ae72aa20.js.map",
   "application.js": "/packs/application-f289da557a2964234299.js",
   "application.js.map": "/packs/application-f289da557a2964234299.js.map",
   "footer_react.js": "/packs/footer_react-77b67a005c2f75f45c49.js",
@@ -11,6 +11,6 @@
   "navbar_react.js.map": "/packs/navbar_react-48a8b1b369eb2229ca04.js.map",
   "server_rendering.js": "/packs/server_rendering-2dac5c22ceea9a840d2c.js",
   "server_rendering.js.map": "/packs/server_rendering-2dac5c22ceea9a840d2c.js.map",
-  "structure_carousel.js": "/packs/structure_carousel-07c1a3c54ea4b0fd0e6c.js",
-  "structure_carousel.js.map": "/packs/structure_carousel-07c1a3c54ea4b0fd0e6c.js.map"
+  "structure_carousel.js": "/packs/structure_carousel-84980c8b0c6a4f6b28cd.js",
+  "structure_carousel.js.map": "/packs/structure_carousel-84980c8b0c6a4f6b28cd.js.map"
 }

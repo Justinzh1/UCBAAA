@@ -6,7 +6,7 @@
 	height: 250px;
 	width: 250px;
 	overflow: hidden;
-	text-align:center;
+	text-align: left;
 }
 
 .primary {
@@ -23,10 +23,9 @@
 	.alt {
 		background-color: #1e3265;
 	}
-}
-
-.primary:hover {
-	background-color: #f1504b;
+	.card-info {
+		display: inline-block;
+	}
 }
 
 .alt {
@@ -66,12 +65,13 @@
 }
 
 .card-info {
+	display: none;
 	color: white;
     position: relative;
     top: -500px;
     text-align: left;
     padding: 20px;
-
+    transition: 500ms ease-in-out;
     p {
     	margin: 0;
     }
