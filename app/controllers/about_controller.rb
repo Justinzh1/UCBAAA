@@ -17,8 +17,8 @@ class AboutController < ApplicationController
 								{ name: "Emily Zeng", role: 'Historian Chair', year: "Freshmen", major: 'Psychology' },
 								{ name: "Peter Ren", role: 'Social Chair', year: "Sophomore", major: 'Chemistry & Computer Science' },
 								{ name: "Cloris Zhang", role: 'Public Relations Chair', year: "Sophomore", major: 'Applied Math' },
-								{ name: "Chair Name", role: 'Chair', year: "Sophomore", major: 'Math' },
-								{ name: "Chair Name", role: 'Chair', year: "Sophomore", major: 'Math' }
+								{ name: "Jun Zhou", role: 'IRC Chair', year: "Junior", major: 'EECS' },
+								{ name: "Jason Louie", role: 'Culture Chair', year: "Sophomore", major: 'Sociology' }
 						]
 					}.to_json
 	end
