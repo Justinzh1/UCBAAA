@@ -12,7 +12,7 @@ class StructureController < ApplicationController
 							link: '/', 
 							perks: ["Events", "Family", "Friends", "Facebook Page", "Merchandise"],
 							commitment: "Low Commitment",
-							dues: "General Member - $10 / Semester",
+							dues: "General Member - $15 / Semester",
 							description: 'General members make up our largest group in Asian American Association. This is the lowest commitment tier. Come join us as you please!'
 						},
 					committee: 
@@ -22,9 +22,9 @@ class StructureController < ApplicationController
 							positions: ['Committee Member', 'Committee Chair'],
 							number: 8, 
 							perks: ["Events", "Close knit Family", "Learn new skills"],
-							commitment: 'Low Commitment',
-							dues: "General Member - $10 / Semester",
-							description: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
+							commitment: 'Medium Commitment',
+							dues: "General Member - $15 / Semester",
+							description: 'Committee members learn a skill throughout the semester and gain a close knite group of friends. This is a higher commitment tier and is a great way to make a difference on campus.',
 							links: '/'
 						}, 
 					family: 
@@ -33,10 +33,10 @@ class StructureController < ApplicationController
 							verbose: 'Families',
 							positions: ['Family Member', 'Family Head'],
 							number: 3,
-							perks: ["Events", "Close knit Family", "Meet new People", "Family Page"], 
+							perks: ["Events", "Meet new People", "Family Page", "Family Events"], 
 							commitment: "Low Commitment",
-							description: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
-							dues: "General Member - $10 / Semester",
+							description: 'Families are open to all members. As a family member you will have access to Family Events, our big/little system and a large group of people to meet.',
+							dues: "General Member - $15 / Semester",
 							links: '/'
 						}, 
 					cabinet: 
@@ -47,11 +47,14 @@ class StructureController < ApplicationController
 							number: 8, 
 							perks: ["Event Planning", "Close knit Family", "Logistics Planning", "Cabinet Gear"],
 							commitment: "High Commitment",
-							dues: "General Member - $10 / Semester",
-							description: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
+							dues: "General Member - $15 / Semester",
+							description: 'Cabinet Officers run the behind the scenes work. If you want to help to club grow and gain a deeper understanding of it, join this tier.',
 							links: '/'
 						}}.to_json
 		@active = params[:format]
+		if @active.nil?
+			@active = :member
+		end
 	end
 
 	def logo_color

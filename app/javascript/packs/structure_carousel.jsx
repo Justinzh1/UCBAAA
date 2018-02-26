@@ -100,7 +100,7 @@ class StructureDetails extends React.Component {
                   </div>
                   <div className="grid-description">
                     <p>{this.props.structure.description}</p>
-                    <div className="grid-button">Register</div>
+                    <div className="grid-button"><a class="link" href="https://goo.gl/forms/5qNK0NxwnV5BAG9J2">Register</a></div>
                   </div>
                 </div>
                 <div className="grid-info">
